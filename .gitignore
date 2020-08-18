@@ -52,7 +52,7 @@ tags
 *.o
 *.obj
 *.ino.cpp
-
+hexfile/
 # Precompiled Headers
 *.gch
 *.pch
