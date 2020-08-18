@@ -1,0 +1,7 @@
+Output file format:
+	This is controlled by /home/lee/.platformio/platforms/ststm32/builder/main.py, line 99
+	To compile as bin 
+		target_firm = env.ElfToBin(join("$BUILD_DIR", "${PROGNAME}"), target_elf)
+	To compile as hex
+		target_firm = env.ElfToHex(join("$BUILD_DIR", "${PROGNAME}"), target_elf)
+	
